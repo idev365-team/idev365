@@ -49,7 +49,7 @@
 
 ## 【跟山地人学Sass系列】
 * [B站观看](https://www.bilibili.com/medialist/play/ml312496304)
-* 正在处理... [YouTube观看]()
+* [YouTube观看](https://youtu.be/c3HwNbvWB6g)
 >* 12集 1月3日到1月4日
 
 ## 【山地人的自学之路】
