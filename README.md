@@ -1,5 +1,7 @@
 # 山地人2018年12月到2019年3月 学习时间表
 
+## 提问 请点击 顶部的 Issues
+
 ## 【Vue.js自学系列教程】 
 * [B站观看](https://www.bilibili.com/medialist/play/ml312549104)
 * [YouTube观看](https://youtu.be/SOUGNFViVFA)
