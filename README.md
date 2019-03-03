@@ -1,9 +1,9 @@
 ![微信:colin3dmax](./banner/banner_idev365.png)
 
 
-> 山地人自学路径 [点击查看](./idev365_roadmap.md) 
+> 山地人自学路径图谱 [点击查看](./idev365_roadmap.md) 
 
-> 山地人自学进度 [点击查看](./TimeLine.md)
+> 山地人当前自学进度 [点击查看](./TimeLine.md)
 
 > 遇到什么问题，想学什么内容 请点击 顶部的 Issues，给我发Issue [去提需求](https://github.com/idev365-team/idev365/issues)
 
