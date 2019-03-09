@@ -5,6 +5,10 @@
 
 > 山地人当前自学进度 [点击查看](./TimeLine.md)
 
+## 翻译的一些文章
+> 零基础如何自学前端 [点击查看](./articles/how-to-web-dev.md)
+
+
 > 遇到什么问题，想学什么内容 请点击 顶部的 Issues，给我发Issue [去提需求](https://github.com/idev365-team/idev365/issues)
 
 ### 想学习山地人的更多专题请到 www.idev365.com 
