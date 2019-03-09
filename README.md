@@ -1,9 +1,17 @@
 ![微信:colin3dmax](./banner/banner_idev365.png)
 
+## 山地人自学前端
 
 > 山地人自学路径图谱 [点击查看](./idev365_roadmap.md) 
 
 > 山地人当前自学进度 [点击查看](./TimeLine.md)
+
+## 山地人翻译的一些文章
+
+> 零基础如何自学前端 [点击查看](./articles/how-to-web-dev.md)
+
+
+## 学习过程中遇到了问题
 
 > 遇到什么问题，想学什么内容 请点击 顶部的 Issues，给我发Issue [去提需求](https://github.com/idev365-team/idev365/issues)
 
