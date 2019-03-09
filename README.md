@@ -9,6 +9,7 @@
 ## 山地人翻译的一些文章
 
 > 1.零基础如何自学前端 [点击查看](./articles/01.how-to-web-dev.md)
+
 > 2.零基础搭建网站要学哪些技术 [点击查看](./articles/02.intro-to-web-dev.md)
 
 
