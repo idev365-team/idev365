@@ -6,11 +6,15 @@
 
 > 山地人当前自学进度 [点击查看](./TimeLine.md)
 
+## 山地人的思考
+
+> 1.关于提问的思考 [点击查看](./articles/skills/01.how-to-ask.md)
+
 ## 山地人翻译的一些文章
 
-> 1.零基础如何自学前端 [点击查看](./articles/01.how-to-web-dev.md)
+> 1.零基础如何自学前端 [点击查看](./articles/base/01.how-to-web-dev.md)
 
-> 2.零基础搭建网站要学哪些技术 [点击查看](./articles/02.intro-to-web-dev.md)
+> 2.零基础搭建网站要学哪些技术 [点击查看](./articles/base/02.intro-to-web-dev.md)
 
 
 ## 学习过程中遇到了问题
