@@ -8,7 +8,8 @@
 
 ## 山地人的思考
 
-> 1.关于提问的思考 [点击查看](./articles/skills/01.how-to-ask.md)
+> 1.关于提问的思考 [点击查看](./articles/thinks/01.how-to-ask.md)
+> 2.关于如今火爆的TypeScript的一点个人看法 [点击查看](./articles/thinks/01.how-about-typescript.md)
 
 ## 山地人翻译的一些文章
 
