@@ -5,7 +5,8 @@ var countdown =
 	Rx.Observable.merge(
 		Rx.Observable.of(-1),
 		timer.take(countdownLength).pluck("value")
-	);
+	)
+	.map(v=>formatCountdown(v))
 
 countdown.subscribe(
 	console.log.bind(console),
@@ -16,8 +17,8 @@ countdown.subscribe(
 
 // *************************************
 
-function formatCountdown() {
-	// TODO
+function formatCountdown(v) {
+	return formatTime( countdownLength - v);
 }
 
 function formatTime(time) {

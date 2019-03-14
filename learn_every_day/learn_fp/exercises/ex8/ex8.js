@@ -4,17 +4,32 @@ var nums = {
 	third: [1,1,3,2]
 };
 
-var filteredNums = filterObj(function(list){
-	return isOdd(listSum(list));
-},nums);
+console.log(
+	pipe(
+		curry(filterObj)(compose(isOdd,listSum)),
+		curry(mapObj)(listProduct),
+		curry(reduceObj)(sum)(0)
+	)(nums)
+)
 
-var filteredNumsProducts = mapObj(function(list){
-	return listProduct(list);
-},filteredNums);
+console.log(
+	[
+		curry(filterObj)(compose(isOdd,listSum)),
+		curry(mapObj)(listProduct),
+		curry(reduceObj)(sum)(0),
+	].reduce(binary(pipe))(nums)
+)
 
-reduceObj(function(acc,v){
-	return acc + v;
-},0,filteredNumsProducts);
+// var filteredNums = filterObj(function(list){
+// 	return isOdd(listSum(list));
+// },nums);
+
+// console.log(filteredNums)
+
+// var filteredNumsProducts = mapObj(function(list){
+// 	return listProduct(list);
+// },filteredNums);
+
 // 38886
 
 
@@ -22,19 +37,23 @@ reduceObj(function(acc,v){
 
 function mapObj(mapperFn,o) {
 	var newObj = {};
-	var keys = Object.keys(o);
-	for (let key of keys) {
-		newObj[key] = mapperFn( o[key] );
-	}
+	Object.keys(o).map( (key)=> newObj[key] = mapperFn( o[key] ) )
 	return newObj;
 }
 
 function filterObj(predicateFn,o) {
-	// TODO
+	var obj = {};
+	Object.keys(o).map((key)=>{
+		let list = o[key];
+		if(predicateFn(list)) obj[key] = list;
+	});
+	return obj;
 }
 
 function reduceObj(reducerFn,initialValue,o) {
-	// TODO
+	var result = initialValue;
+	var keys = Object.keys(o).map(key=>result = reducerFn(result,o[key]));
+	return result;
 }
 
 
