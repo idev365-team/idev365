@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Src</title>
+    <script src="src/MVVM.js"></script>
+    <script src="src/Observe.js"></script>
+    <script src="src/Dep.js"></script>
+    <script src="src/Watcher.js"></script>
+    <script src="src/Compile.js"></script>
+</head>
+<body>
+    <div id="app">
+        <input v-mode="msg" />
+        {{ msg }}
+    </div>
+    <script>
+        new Vue({
+            el:"app",
+            data:{
+                msg:"hello",
+            }
+        })
+    </script>
+</body>
+</html>
